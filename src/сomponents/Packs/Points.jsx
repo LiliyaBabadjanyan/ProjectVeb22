@@ -5,7 +5,7 @@ const Points = ({props}) => {
     return (
         <div className={classes.point}>
             <div>
-            <p className={classes.text}> <img src={check}/> {props.text}</p>
+            <p className={classes.text}> <img className={classes.InMGH} src={check}/> {props.text}</p>
             </div>
         </div>
     );
