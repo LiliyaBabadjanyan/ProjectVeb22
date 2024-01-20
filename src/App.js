@@ -3,6 +3,7 @@ import Header from "./сomponents/header/Header";
 import ServicesScrin from "./сomponents/Services/ServiceScreen/ServicesScrin";
 import SupportScreen from "./сomponents/support/supportScreen/SupportScreen";
 import BurgerMenu from "./сomponents/burgerMenu/BurgerMenu";
+import ExpirienceScreen from "./сomponents/expirience/ExpirienceScreen";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
             <ServicesScrin/>
             <SupportScreen/>
             <BurgerMenu/>
+            <ExpirienceScreen/>
         </div>
     );
 }
