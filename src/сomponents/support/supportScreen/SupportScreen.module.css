@@ -1,0 +1,19 @@
+
+.wrapper {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+h2, p {
+    text-align: start;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,30 @@
+.main {
+}
+
+/*.icons {*/
+/*    display: grid;*/
+/*    grid-template-columns: 270px 270px 270px 270px;*/
+/*    grid-template-rows: 200px 200px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.wrapper {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+h2, .text {
+    text-align: start;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+

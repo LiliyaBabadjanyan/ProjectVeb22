@@ -1,0 +1,22 @@
+.wrapper {
+    border-left: solid #F14D34 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 10px;
+    height: 120px;
+}
+
+h3 {
+    text-align: start;
+    font-weight: bold;
+}
+
+.tB {
+    line-height: 20px;
+    font-size: 14px;
+    color: darkgray;
+}
+
