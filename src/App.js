@@ -6,6 +6,7 @@ import BurgerMenu from "./сomponents/burgerMenu/BurgerMenu";
 import ExpirienceScreen from "./сomponents/expirience/ExpirienceScreen";
 import PacksScreen from "./сomponents/Packs/Packs/PacksScreen";
 import WorkerScreen from "./сomponents/workers/workerScreen/WorkerScreen";
+import DevSpeedScreen from "./сomponents/devSpeedScreen/devSpeedScreen";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <BurgerMenu/>
             <ExpirienceScreen/>
             <PacksScreen/>
+            <DevSpeedScreen/>
             <WorkerScreen/>
         </div>
     );
