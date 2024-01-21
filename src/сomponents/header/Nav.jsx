@@ -12,15 +12,15 @@ class Nav extends Component {
                         <img src={logo}/>
                     </div>
                     <div>
-                        <nav>
-                            <ul>
-                                <li><a>ПОДДЕРЖКА DRUPAL</a></li>
-                                <li><a>АДМИНИСТРОВАНИЕ</a></li>
-                                <li><a>ПРОДВИЖЕНИЕ</a></li>
-                                <li><a>РЕКЛАМА</a></li>
-                                <li><a>О НАС</a></li>
-                                <li><a>ПРОЕКТЫ</a></li>
-                                <li><a>КОНТАКТЫ</a></li>
+                        <nav className={classes.hdNav}>
+                            <ul className={classes.nav}>
+                                <li className={classes.navigation}><a>ПОДДЕРЖКА DRUPAL</a></li>
+                                <li className={classes.navigation}><a>АДМИНИСТРОВАНИЕ</a></li>
+                                <li className={classes.navigation}><a>ПРОДВИЖЕНИЕ</a></li>
+                                <li className={classes.navigation}><a>РЕКЛАМА</a></li>
+                                <li className={classes.navigation}><a>О НАС</a></li>
+                                <li className={classes.navigation}><a>ПРОЕКТЫ</a></li>
+                                <li className={classes.navigation}><a>КОНТАКТЫ</a></li>
                             </ul>
                         </nav>
                     </div>

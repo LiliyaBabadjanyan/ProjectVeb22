@@ -6,7 +6,8 @@
     padding: 35px;
 }
 
-li {
+
+.navigation {
     display: inline;
     margin: 10px;
     line-height: 2;
@@ -14,7 +15,7 @@ li {
     transition: ease-in-out .3s;
 }
 
-ul {
+.nav {
     margin: 0;
 }
 
@@ -23,8 +24,14 @@ a {
     text-decoration: none;
 }
 
-li:hover {
+.navigation:hover {
     text-decoration: underline #F14D34 3px;
+}
+
+.hdNav {
+    background-color: transparent;
+    box-shadow: 0 0 0;
+    height: 10px;
 }
 
 @media screen and (max-width: 760px) {
