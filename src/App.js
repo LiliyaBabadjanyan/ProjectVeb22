@@ -8,6 +8,7 @@ import WorkerScreen from "./сomponents/workers/workerScreen/WorkerScreen";
 import DevSpeedScreen from "./сomponents/devSpeedScreen/devSpeedScreen";
 import SliderColoborators from "./сomponents/Slider/SliderColoborators";
 import Faq from "./сomponents/Faq/faq";
+import Formgit from "./сomponents/form/formgit";
 
 function App() {
     const headerData = [
@@ -40,6 +41,7 @@ function App() {
             <WorkerScreen/>
             <SliderColoborators/>
             <Faq/>
+            <Formgit/>
         </div>
     );
 }
