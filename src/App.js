@@ -2,11 +2,12 @@ import React from 'react';
 import Header from "./сomponents/header/Header";
 import ServicesScrin from "./сomponents/Services/ServiceScreen/ServicesScrin";
 import SupportScreen from "./сomponents/support/supportScreen/SupportScreen";
-import BurgerMenu from "./сomponents/burgerMenu/BurgerMenu";
 import ExpirienceScreen from "./сomponents/expirience/ExpirienceScreen";
 import PacksScreen from "./сomponents/Packs/Packs/PacksScreen";
 import WorkerScreen from "./сomponents/workers/workerScreen/WorkerScreen";
 import DevSpeedScreen from "./сomponents/devSpeedScreen/devSpeedScreen";
+import SliderColoborators from "./сomponents/Slider/SliderColoborators";
+import Faq from "./сomponents/Faq/faq";
 
 function App() {
     const headerData = [
@@ -33,11 +34,12 @@ function App() {
             ))}
             <ServicesScrin/>
             <SupportScreen/>
-            <BurgerMenu/>
             <ExpirienceScreen/>
             <PacksScreen/>
             <DevSpeedScreen/>
             <WorkerScreen/>
+            <SliderColoborators/>
+            <Faq/>
         </div>
     );
 }

@@ -4,8 +4,7 @@ import HeaderTop from "./HeaderTop/HeaderTop";
 import Drupal from '../../ref/header/druplicon.svg'
 import video from '../../ref/header/video.mp4'
 import classes from "./Header.module.css";
-import NavBar from "../NavBar/NavBar";
-
+import NavBar from "../NavBar/NavBar"
 const Header = (props) => {
     const { menuItems, number, locale, languageOptions } = props;
     return (
